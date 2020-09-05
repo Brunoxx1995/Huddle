@@ -35,7 +35,9 @@ a {
   background-image: url("../img/bg-hero-desktop.svg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-color: #EDFBFE;
 }
+
 
 
 .menu {
@@ -59,8 +61,12 @@ a {
   font-size: 0.875em;
   -webkit-box-shadow: -1px 1px 8px -3px #000000; 
   box-shadow: -1px 1px 8px -3px #000000;
+  margin-right: 20px;
 
-  
+}
+
+.logo {
+  margin-left: 20px;
 }
 
 
@@ -83,9 +89,18 @@ a {
 .intro-info {
   max-width: 540px;
   color: hsl(192, 100%, 9%);
+  align-self: center;
+  margin-right: 40px;
 }
 
+.intro h1 {
+  font-size: 2em;
+}
+
+
 .intro p {
+  padding-top: 30px;
+  font-size: 1em;
 }
 
 a.call {
@@ -96,6 +111,59 @@ a.call {
   padding: 15px 20px;
   color: #fff;
   border-radius: 20px;
-  margin-top: 40px;
+  margin-top: 30px;
 }
+
+
+@media (max-width: 739px) {
+  .intro-container {
+    flex-direction: column;
+    max-width: 400px;
+  }
+
+  .intro-info {
+    align-self: center;
+    margin: 0 auto 40px auto;
+    text-align: center;
+  }
+
+  .intro-info h1 {
+    font-size: 1.5em;
+  }
+
+  .intro p {
+    font-size: 0.875em;
+  }
+
+  a.call {
+    margin: 40px auto;
+  }
+}
+
+
+
+.conversation {
+  padding: 60px 0;
+}
+
+.conversation-item {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: space-around;
+  padding: 40px 40px 60px 60px;
+  box-shadow: 0px 4px 9px 1px rgba(0,0,0,0.54);
+}
+
+.text-info {
+  align-self: center;
+  flex: 1;
+  justify-self: flex-end;
+}
+
+.foto-conversation {
+  max-width: 400px;
+  flex: 1;
+}
+
 
