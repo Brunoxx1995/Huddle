@@ -1,0 +1,101 @@
+body, ul, li, p, h1,h2, h3 {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-size: 1.125em;
+}
+
+li {
+  list-style-type: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+.cabecalho {
+  background-image: url("../img/bg-hero-desktop.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.menu {
+  padding: 20px 0;
+}
+
+.menu-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.menu-nav a {
+  font-family: "Poppins", sans-serif;
+  background: #fff;
+  padding: 10px 40px;
+  border-radius: 20px;
+  color: hsl(192, 100%, 9%);
+  font-size: 0.875em;
+  -webkit-box-shadow: -1px 1px 8px -3px #000000; 
+  box-shadow: -1px 1px 8px -3px #000000;
+
+  
+}
+
+
+.intro {
+  padding: 60px 0;
+}
+
+.intro-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+ .foto-intro {
+  flex: 1;
+}
+
+.intro-info {
+  max-width: 540px;
+  color: hsl(192, 100%, 9%);
+}
+
+.intro p {
+}
+
+a.call {
+  background: hsl(322, 100%, 66%);
+  display: block;
+  width: 250px;
+  text-align: center;
+  padding: 15px 20px;
+  color: #fff;
+  border-radius: 20px;
+  margin-top: 40px;
+}
+
